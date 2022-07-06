@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 section{
     text-align: center;
@@ -44,8 +44,8 @@ p{
 #hero::after{
     content: '';
     position: absolute;
-    background-color: black;
-    opacity: .7;
+    background-image: linear-gradient(transparent, black);
+    opacity: 1;
     top: 0;
     left: 0;
     height: 100%;
@@ -82,7 +82,9 @@ p{
 }
 #donate-today .other-amount input{
     margin-top: 80px;
-    padding: 10px 100px;
+    padding: 10px 335px;
+    border: none;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
 }
 #donate-plan{
     height: 90vh;
@@ -112,4 +114,74 @@ p{
 }
 #donate-plan .package .card:nth-child(3){
     background-color: rgba(255, 244, 214, 1);
+}
+#guide .contribute{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+    padding-bottom: 40px;
+}
+.half-width{
+    width: 40%;
+    text-align: justify;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 5px;
+}
+#sylhet{
+    width: 100%;
+    height: 90vh;
+}
+#sylhet .fload-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+#sylhet .fload-map p{
+    font-size: 15px;
+}
+#subscription .subscribe{
+    background-color: rgba(255, 244, 214, 1);
+    width: 60%;
+    padding: 30px 0 60px;
+    margin: 40px auto;
+    align-items: center;
+}
+#subscription .subscribe input{
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#subscription .subscribe a{
+    padding: 5px 30px;
+    border-radius: 0;
+    font-size: 13px;
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#footer{
+    background-color: rgba(11, 13, 23, 1);
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+#footer h2{
+    color: rgba(255, 89, 89, 1);
+}
+#footer small{
+    color: white;
+}
+#footer p{
+    color: rgb(150, 144, 144);
 }
